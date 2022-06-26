@@ -1,11 +1,33 @@
 body{
     text-align: center;
     font-family: cursive;
+    font-family: 'Merriweather', serif;
+    background-color: white;
+    margin: 0;
+
+}
+h1{
+    top:50px;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
 }
 h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+
 }
-.h1-heading{
-    top:20px
+h3{
+    color:#11999E
+}
+a{
+    color:#11999E
+}
+.h2-heading{
+    font-family: 'Ubuntu Mono', monospace;
 }
 .top-cloud{
     position:absolute;
@@ -14,9 +36,72 @@ h2{
 }
 .bottom-cloud{
     position: absolute;
+    left:330px
 }
 .top-container{
-    padding: 100px;
+    padding: 100px 100px 0;
     position: relative;
-    background-color: powderblue;
+    background-color: #EAF6F6;
+}
+.middle-container{
+    padding: 20px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 50px 20px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.profile-img{
+    margin-top: 10px;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill1-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill2-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.btn{
+    background-color: #66BFBF;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 100px;
+    color: #EAF6F6;
+    text-decoration: none;
+}
+.contact-me-p{
+    margin-bottom: 30px;
+}
+hr{
+    width: 8%;
+    border-top: 10px dotted #EAF6F6;
+}
+.footer-link{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.footer-p{
+    padding-top: 20px;
+    padding-bottom:0px;
+    color: #EAF6F6;
+    margin-top:20px;
+    font-size: 0.8rem;
+margin-bottom: 10px;
 }
