@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+}
+.h1-heading{
+    top:20px
+}
+.top-cloud{
+    position:absolute;
+    top: 50px;
+    right: 330px;
+}
+.bottom-cloud{
+    position: absolute;
+}
+.top-container{
+    padding: 100px;
+    position: relative;
+    background-color: powderblue;
+}
